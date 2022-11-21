@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+
+}
+
+.div1 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+
+
+    animation-name: batch2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes batch2 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 400px;
+        top: 0;
+        background-color: blueviolet;
+
+    }
+
+    50% {
+        top: 400px;
+        left: 400px;
+        background-color: gold;
+    }
+
+    75% {
+        top: 400px;
+        left: 0;
+        background-color: blue;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+
+    }
+}
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(77, 31, 184);
+    border: 25%;
+    position:relative;
+
+
+    animation-name: batch3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes batch3{
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 600px;
+        top: 0;
+        background-color: blueviolet;
+
+    }
+
+    50% {
+        top: 600px;
+        left: 600px;
+        background-color: gold;
+    }
+
+    75% {
+        top: 600px;
+        left: 0;
+        background-color: blue;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+
+    }
+}
